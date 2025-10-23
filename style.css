@@ -1,0 +1,42 @@
+/* General page background */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Navbar custom height and shadow */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Page title spacing */
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Table styling */
+table {
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Table row hover effect */
+table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: default;
+}
+
+/* Form container spacing */
+#form-page form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons hover effects */
+button.btn:hover {
+  opacity: 0.9;
+  transition: 0.2s ease-in-out;
+}
